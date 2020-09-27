@@ -26,7 +26,7 @@ window.addEventListener( 'load', () => {
 
         
         // create meeting link
-        let meetingLink = `${ location.origin }?room=${ helpers.generateRandomString(8) }`;
+        let meetingLink = `${ location.href }?room=${ helpers.generateRandomString(8) }`;
         
         //save the user's name in sessionStorage
         sessionStorage.setItem( 'meetingLink', meetingLink );
