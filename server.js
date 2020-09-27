@@ -4,6 +4,7 @@ let server = require( 'http' ).Server( app );
 let io = require( 'socket.io' )( server );
 let stream = require( './ws/stream' );
 let path = require( 'path' );
+const port = process.env.PORT || 3000;
 let favicon = require( 'serve-favicon' );
 
 app.use( favicon( path.join( __dirname, 'favicon.ico' ) ) );
@@ -16,4 +17,4 @@ app.get( '/', ( req, res ) => {
 
 io.of( '/stream' ).on( 'connection', stream );
 
-server.listen( 3000 );
+server.listen(port, () => console.log(`Server is running on port ${port}`));
