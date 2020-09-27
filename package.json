@@ -2,7 +2,7 @@
   "name": "webrtc_meet",
   "version": "1.0.0",
   "description": "A multiparty call implementation using WebRTC, Node.js",
-  "main": "src/server.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "serve-favicon": "^2.5.0",
@@ -12,7 +12,7 @@
     "nodemon": "^2.0.3"
   },
   "scripts": {
-    "start": "node ./src/server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
