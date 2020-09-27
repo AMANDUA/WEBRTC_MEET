@@ -1,0 +1,36 @@
+{
+  "name": "webrtc_meet",
+  "version": "1.0.0",
+  "description": "A multiparty call implementation using WebRTC, Node.js",
+  "main": "src/server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMANDUA/WEBRTC_MEET.git"
+  },
+  "keywords": [
+    "WEBRTC",
+    "VIDEO",
+    "CALLING",
+    "MULTIPARTY",
+    "CALL",
+    "NODEJS"
+  ],
+  "author": "Aman Dua <aman.dua1995@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMANDUA/WEBRTC_MEET/issues"
+  },
+  "homepage": "https://github.com/AMANDUA/WEBRTC_MEET#readme"
+}
